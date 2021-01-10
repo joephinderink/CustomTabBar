@@ -6,15 +6,16 @@
 //
 
 import SwiftUI
+import Combine
 
-struct tabBar {
-     var home = true
-     var person = false
+class tabBar: ObservableObject {
+    @Published var home: Bool = true
+    @Published var person: Bool = false
 }
 
 struct ContentView: View {
     
-    @State var tabbar = tabBar()
+    @EnvironmentObject var tabbar : tabBar
     
     var body: some View {
         VStack {
