@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4419139825AB608500E9CE22 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4419139725AB608500E9CE22 /* TabBar.swift */; };
 		44935CAD25AB2FF100832CDC /* CustomTabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44935CAC25AB2FF100832CDC /* CustomTabBarApp.swift */; };
 		44935CAF25AB2FF100832CDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44935CAE25AB2FF100832CDC /* ContentView.swift */; };
 		44935CB125AB2FF400832CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44935CB025AB2FF400832CDC /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4419139725AB608500E9CE22 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		44935CA925AB2FF100832CDC /* CustomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44935CAC25AB2FF100832CDC /* CustomTabBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarApp.swift; sourceTree = "<group>"; };
 		44935CAE25AB2FF100832CDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				44935CAE25AB2FF100832CDC /* ContentView.swift */,
 				44935CBF25AB31AF00832CDC /* Home.swift */,
 				44935CC225AB31B400832CDC /* Person.swift */,
+				4419139725AB608500E9CE22 /* TabBar.swift */,
 				44935CB025AB2FF400832CDC /* Assets.xcassets */,
 				44935CB525AB2FF400832CDC /* Info.plist */,
 				44935CB225AB2FF400832CDC /* Preview Content */,
@@ -148,6 +151,7 @@
 				44935CAF25AB2FF100832CDC /* ContentView.swift in Sources */,
 				44935CC025AB31AF00832CDC /* Home.swift in Sources */,
 				44935CAD25AB2FF100832CDC /* CustomTabBarApp.swift in Sources */,
+				4419139825AB608500E9CE22 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,49 +7,24 @@
 
 import SwiftUI
 
+struct tabBar {
+     var home = true
+     var person = false
+}
+
 struct ContentView: View {
     
-    @State var home = true
-    @State var person = false
-    let bottomScreen = UIScreen.main.bounds.width
+    @State var tabbar = tabBar()
     
     var body: some View {
         VStack {
             ZStack {
-                if home {
+                if tabbar.home {
                     Home()
-                } else if person {
+                } else if tabbar.person {
                     Person()
                 }
-                HStack {
-                    Button (action: {
-                        home = true
-                        person = false
-                    }, label: {
-                        Image(systemName: "house")
-                            .frame(width: 30, height: 35)
-                            .background(home ? Color.white : nil)
-                            .cornerRadius(home ? 8 : 0)
-                            .padding(50)
-                            .foregroundColor(.black)
-                    })
-                    Button (action: {
-                        home = false
-                        person = true
-                    }, label: {
-                        Image(systemName: "person")
-                            .frame(width: 30, height: 35)
-                            .background(person ? Color.white : nil)
-                            .cornerRadius(person ? 5 : 0)
-                            .padding(50)
-                            .foregroundColor(.black)
-                    })
-                }
-                .frame(width: UIScreen.main.bounds.width - 20, height: 60)
-                .background(Color.white)
-                .opacity(0.3)
-                .cornerRadius(25)
-                .offset(y: bottomScreen - 25)
+                TabBar()
             }
         }
     }
