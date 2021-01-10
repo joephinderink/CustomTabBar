@@ -11,13 +11,14 @@ struct ContentView: View {
     
     @State var home = true
     @State var person = false
+    let bottomScreen = UIScreen.main.bounds.width
     
     var body: some View {
         VStack {
             ZStack {
                 if home {
                     Home()
-                } else {
+                } else if person {
                     Person()
                 }
                 HStack {
@@ -48,7 +49,7 @@ struct ContentView: View {
                 .background(Color.white)
                 .opacity(0.3)
                 .cornerRadius(25)
-                .offset(y: 350)
+                .offset(y: bottomScreen - 25)
             }
         }
     }
