@@ -11,6 +11,8 @@
 		44935CAF25AB2FF100832CDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44935CAE25AB2FF100832CDC /* ContentView.swift */; };
 		44935CB125AB2FF400832CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44935CB025AB2FF400832CDC /* Assets.xcassets */; };
 		44935CB425AB2FF400832CDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44935CB325AB2FF400832CDC /* Preview Assets.xcassets */; };
+		44935CC025AB31AF00832CDC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44935CBF25AB31AF00832CDC /* Home.swift */; };
+		44935CC325AB31B400832CDC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44935CC225AB31B400832CDC /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		44935CB025AB2FF400832CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44935CB325AB2FF400832CDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		44935CB525AB2FF400832CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44935CBF25AB31AF00832CDC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		44935CC225AB31B400832CDC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				44935CAC25AB2FF100832CDC /* CustomTabBarApp.swift */,
 				44935CAE25AB2FF100832CDC /* ContentView.swift */,
+				44935CBF25AB31AF00832CDC /* Home.swift */,
+				44935CC225AB31B400832CDC /* Person.swift */,
 				44935CB025AB2FF400832CDC /* Assets.xcassets */,
 				44935CB525AB2FF400832CDC /* Info.plist */,
 				44935CB225AB2FF400832CDC /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44935CC325AB31B400832CDC /* Person.swift in Sources */,
 				44935CAF25AB2FF100832CDC /* ContentView.swift in Sources */,
+				44935CC025AB31AF00832CDC /* Home.swift in Sources */,
 				44935CAD25AB2FF100832CDC /* CustomTabBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
