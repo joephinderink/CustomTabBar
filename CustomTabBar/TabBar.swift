@@ -10,7 +10,7 @@ import SwiftUI
 struct TabBar: View {
     
     @EnvironmentObject var tabbar : tabBar
-    let bottomScreen = UIScreen.main.bounds.height
+    let bottomScreen = UIScreen.main.bounds.heigh
     
     var body: some View {
         HStack {
