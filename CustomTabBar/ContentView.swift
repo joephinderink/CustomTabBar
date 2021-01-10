@@ -6,11 +6,10 @@
 //
 
 import SwiftUI
-import Combine
 
 class tabBar: ObservableObject {
-    @Published var home: Bool = true
-    @Published var person: Bool = false
+    @Published var home = true
+    @Published var person = false
 }
 
 struct ContentView: View {
