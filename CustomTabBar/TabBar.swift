@@ -15,7 +15,7 @@ struct TabBar: View {
     var body: some View {
         HStack {
             Button (action: {
-                withAnimation {
+                withAnimation 
                 tabbar.home = true
                 tabbar.person = false
                 }
